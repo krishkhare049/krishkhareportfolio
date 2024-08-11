@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Khare | Portfolio</title>
+    <meta name="description" content="Hello, I'm Krish Khare. This is my portfolio website...">
+    <meta name="keywords" content="Krish Khare, Krish Khare portfolio, krishkhareportfolio">
+    <meta name="robots" content="index, follow">
+    <meta name="creator" content="Krish Khare">
+
+    <link rel="icon" href="./personal_images/krishkhare.png" sizes="64x64">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./lib/css/swiper-bundle.min.css">
+
+    <style>
+        #loader {
+            height: 100vh;
+            width: 100vw;
+            background: #d4ebff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            font-size: 40px;
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-property: top;
+            transition: top 2000ms;
+        }
+
+        .swiper {
+            width: 100%;
+            padding: 15px 0px;
+            border: 5px solid #ecddc8;
+            border-radius: 10px;
+            background: #ffe5c9;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            width: 60%;
+        }
+
+        .typed-cursor {
+            color: white;
+            font-weight: 900;
+            font-size: 30px
+        }
+
+        #collage_swiper {
+            width: 80vw;
+            max-width: 700px;
+            background: #ffffff91;
+        }
+        #projects_swiper {
+            /* width: 80vw; */
+            max-width: 650px;;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="loader">
+
+    </div>
+
+    <header>
+        <div class="mehead">
+            <div class="meheadimgdiv">
+                <img src="./personal_images/krishkhare.png" alt="">
+            </div>
+            <div class="myname">
+                <span class="letters">krishkhare</span>
+            </div>
+        </div>
+        <nav>
+
+
+            <div class="nav_icons active_nav_icon" id="home_icon">
+
+                <svg width="261pt" height="261pt" version="1.0" viewBox="0 0 261 261"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(0 261) scale(.1 -.1)">
+                        <path
+                            d="m1226 2269c-35-19-99-75-501-439-76-69-159-142-184-163s-75-66-111-101c-36-34-89-82-119-106-30-25-64-66-77-92l-24-47v-481c0-526 1-536 56-558 21-9 140-12 439-10l410 3 5 260c5 273 8 290 54 328 94 79 244 54 294-49 21-42 22-59 22-294v-250h417c415 0 417 0 449 22 18 13 35 32 38 43s6 241 6 511v491l-30 45c-17 26-47 59-67 74s-73 61-118 103-157 144-250 226c-92 83-220 197-284 255-174 158-247 219-278 235-40 21-102 19-147-6z" />
+                    </g>
+                </svg>
+                <span>Home</span>
+
+            </div>
+            <div class="nav_icons" id="projects_icon">
+
+
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt"
+                    viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000"
+                        stroke="none">
+                        <path d="M4515 5109 c-148 -14 -334 -46 -470 -80 -66 -17 -130 -34 -142 -36
+    -27 -6 -28 -11 -7 -111 56 -276 251 -567 514 -766 138 -105 384 -210 536 -230
+    l52 -6 20 77 c70 262 96 471 96 784 l1 255 -27 41 c-44 67 -75 76 -288 79
+    -102 1 -230 -2 -285 -7z" />
+                        <path d="M3500 4841 c-687 -309 -1320 -839 -1897 -1591 -146 -191 -453 -648
+    -453 -676 0 -5 75 -84 166 -175 l166 -166 92 30 c109 35 287 48 377 27 219
+    -52 349 -224 349 -462 0 -94 -18 -200 -49 -291 l-19 -54 173 -173 c111 -111
+    178 -171 187 -167 29 11 390 248 525 343 240 172 501 386 698 574 483 459 823
+    925 1036 1415 l48 110 -107 26 c-389 97 -730 340 -963 688 -111 165 -187 336
+    -224 504 -9 42 -18 77 -19 77 0 0 -39 -18 -86 -39z m-13 -822 c263 -70 465
+    -273 534 -537 26 -97 28 -258 5 -357 -9 -38 -38 -113 -63 -165 -40 -80 -61
+    -109 -138 -185 -103 -103 -168 -145 -292 -187 -161 -56 -367 -48 -527 19 -229
+    95 -405 315 -447 557 -16 96 -7 263 21 351 120 385 520 608 907 504z" />
+                        <path d="M3226 3739 c-214 -32 -376 -223 -376 -443 0 -248 199 -446 450 -446
+    190 0 373 136 425 317 19 66 22 181 5 243 -59 220 -277 363 -504 329z" />
+                        <path d="M1055 3461 c-141 -35 -280 -99 -410 -189 -52 -36 -176 -151 -357
+    -331 -255 -255 -277 -279 -283 -318 -8 -53 7 -102 43 -137 46 -44 82 -48 191
+    -25 53 11 132 27 176 35 84 15 272 21 315 9 24 -6 30 2 100 122 143 246 303
+    490 463 706 54 74 77 111 70 118 -32 32 -197 37 -308 10z" />
+                        <path d="M897 2132 c-112 -214 -167 -331 -167 -360 0 -35 24 -84 56 -114 l29
+    -27 70 82 c39 45 129 142 202 217 l132 136 -117 117 -117 116 -88 -167z" />
+                        <path d="M1730 1995 c-47 -9 -110 -31 -170 -61 -87 -43 -106 -57 -230 -183
+    -372 -377 -730 -868 -730 -1002 0 -133 116 -187 253 -118 142 72 372 232 552
+    384 147 124 422 384 462 437 106 138 161 322 129 431 -31 106 -112 141 -266
+    112z" />
+                        <path d="M3370 1299 c-110 -84 -516 -352 -695 -458 l-169 -101 -1 -122 c0 -71
+    -11 -195 -24 -293 -28 -200 -25 -234 25 -282 40 -38 91 -50 143 -35 50 15 566
+    534 633 637 127 194 189 377 190 555 0 89 -12 151 -29 149 -5 0 -37 -23 -73
+    -50z" />
+                        <path d="M1975 1130 c-50 -50 -147 -141 -217 -203 l-127 -112 32 -34 c37 -39
+    83 -61 127 -61 28 0 282 124 467 227 l52 29 -122 122 -122 122 -90 -90z" />
+                    </g>
+                </svg>
+
+                <span>Projects</span>
+
+            </div>
+            <div class="nav_icons" id="contact_icon">
+
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="297.000000pt" height="271.000000pt"
+                    viewBox="0 0 297.000000 271.000000" preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,271.000000) scale(0.100000,-0.100000)" fill="#000000"
+                        stroke="none">
+                        <path d="M547 2550 c-63 -16 -91 -36 -161 -112 -79 -85 -107 -130 -140 -224
+                   -82 -234 -50 -467 101 -739 45 -82 201 -316 223 -335 3 -3 44 -52 91 -110 209
+                   -255 462 -476 704 -613 191 -108 512 -230 694 -262 233 -43 447 21 607 181 63
+                   62 85 104 113 213 28 111 28 184 1 211 -11 11 -82 50 -158 86 -75 37 -180 87
+                   -232 113 -227 110 -242 108 -354 -53 -36 -50 -82 -112 -104 -136 -37 -42 -41
+                   -44 -104 -48 -55 -4 -75 0 -137 26 -193 82 -385 212 -532 364 -131 135 -151
+                   159 -230 276 -82 119 -103 165 -94 200 7 29 59 97 141 185 30 32 63 75 72 94
+                   19 40 23 28 -98 323 -90 221 -142 331 -164 350 -22 17 -182 24 -239 10z" />
+                    </g>
+                </svg>
+                <span>Contact</span>
+
+            </div>
+        </nav>
+    </header>
+
+    <div id="home_page" class="pages active_page">
+
+        <div class="about sections">
+            <div class="about_text">
+                <span class="headline" id="hey">
+                    Hey, I am Krish
+                </span>
+                <br>
+                <span style="font-size: 25px; color: rgb(0, 0, 0); font-weight: 900;">Web Developer</span><br>
+                <span style="font-family: 'novasquare', sans-serif; font-size: 19px;">with a passion for creating
+                    dynamic
+                    and
+                    user-friendly web applications.</span><br><br>
+
+                    <!-- Will be added very soon- -->
+                    <!-- Will be added very soon- -->
+                    <!-- Will be added very soon- -->
+                    <!-- Will be added very soon- -->
+                    <!-- Will be added very soon- -->
+                    <!-- Will be added very soon- -->
+                <!-- <span
+                    style="background: white; color: black; font-weight: 900; padding: 4px 10px; border-radius: 10px; margin: 4px;">Resume</span> -->
+            </div>
+            <img src="./personal_images/krishkhare.png" alt="" class="my_img">
+        </div>
+
+        <div class="projects_sec sections" id="projects">
+            <div class="projects_h">
+                <img src="./images/planning.png" alt="">
+                <span>Projects</span>
+            </div>
+
+
+            <div id="project_container">
+
+                <!-- Slider main container -->
+                <div class="swiper" id="projects_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="project_items">
+                                <img src="./projects/images/passwordgenerator.png" alt="">
+                                <span class="project_tit">React Password generator</span>
+                                <span class="project_desc">generate password with alpha
+                                    numeric and
+                                    special characters.</span>
+
+                                <div class="live_repo_btns">
+                                    <a href="https://password-generator-krish-khare-projects.vercel.app/"
+                                        target="_blank" rel="noopener noreferrer"><button class="visit_btn">Live <img
+                                                src="./images/external-link.svg" alt=""></button></a>
+
+                                    <a href="https://github.com/krishkhare049/Password-Generator" target="_blank"
+                                        rel="noopener noreferrer"><button class="git_link">Repo <img
+                                                src="./images/link.svg" alt=""></button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_items">
+                                <img src="./projects/images/gamermash.png" alt="">
+                                <span class="project_tit">Gamermash</span>
+                                <span class="project_desc">A games website where you can play some games. So visit and
+                                    play
+                                    games
+                                    online.</span>
+
+                                <div class="live_repo_btns">
+                                    <a href="https://gamermash.netlify.app/" target="_blank"
+                                        rel="noopener noreferrer"><button class="visit_btn">Live <img
+                                                src="./images/external-link.svg" alt=""></button></a>
+                                    <a href="https://github.com/krishkhare049/Gamermash" target="_blank"
+                                        rel="noopener noreferrer"><button class="git_link">Repo <img
+                                                src="./images/link.svg" alt=""></button></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_items">
+                                <img src="./projects/images/personalportfolio.png" alt="">
+                                <span class="project_tit">Personal Portfolio Website</span>
+                                <span class="project_desc">My first Personal Portfolio website</span>
+
+                                <div class="live_repo_btns">
+                                    <a href="https://krishkhareportfolio.netlify.app/" target="_blank"
+                                        rel="noopener noreferrer"><button class="visit_btn">Live <img
+                                                src="./images/external-link.svg" alt=""></button></a>
+
+                                    <a href="https://github.com/krishkhare049/krish-khare-portfolio-website"
+                                        target="_blank" rel="noopener noreferrer"><button class="git_link">Repo <img
+                                                src="./images/link.svg" alt=""></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_items">
+                                <img src="./projects/images/currencyconverter.png" alt="">
+                                <span class="project_tit">Currency Converter</span>
+                                <span class="project_desc">Convert currencies</span>
+
+                                <div class="live_repo_btns">
+                                    <a href="https://currency-converter-kk.vercel.app/" target="_blank"
+                                        rel="noopener noreferrer"><button class="visit_btn">Live <img
+                                                src="./images/external-link.svg" alt=""></button></a>
+
+                                    <a href="https://github.com/krishkhare049/CurrencyConverter" target="_blank"
+                                        rel="noopener noreferrer"><button class="git_link">Repo <img
+                                                src="./images/link.svg" alt=""></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_items">
+                                <img src="./projects/images/knowpedia.png" alt="">
+                                <span class="project_tit">Knowpedia</span>
+                                <span class="project_desc">An essay website</span>
+
+                                <div class="live_repo_btns">
+                                    <a href="https://knowpedia.netlify.app/" target="_blank"
+                                        rel="noopener noreferrer"><button class="visit_btn">Live <img
+                                                src="./images/external-link.svg" alt=""></button></a>
+                                    <a href="https://github.com/krishkhare049/knowpedia" target="_blank"
+                                        rel="noopener noreferrer"><button class="git_link">Repo <img
+                                                src="./images/link.svg" alt=""></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="social_media_sec">
+
+        </div>
+
+
+
+    </div>
+
+    <div id="projects_page" class="pages">
+
+        
+        <div class="project_page_section">
+            
+            <div class="projects_h">
+                <img src="./images/planning.png" alt="">
+                <span>Projects</span>
+            </div>
+
+            <div class="projects_container">
+
+                <div class="project_items">
+                    <img src="./projects/images/passwordgenerator.png" alt="">
+                    <span class="project_tit">React Password generator</span>
+                    <span class="project_desc">generate password with alpha
+                        numeric and
+                        special characters.</span>
+    
+                    <div class="live_repo_btns">
+                        <a href="https://password-generator-krish-khare-projects.vercel.app/" target="_blank"
+                            rel="noopener noreferrer"><button class="visit_btn">Live <img src="./images/external-link.svg"
+                                    alt=""></button></a>
+    
+                        <a href="https://github.com/krishkhare049/Password-Generator" target="_blank"
+                            rel="noopener noreferrer"><button class="git_link">Repo <img src="./images/link.svg"
+                                    alt=""></button></a>
+                    </div>
+    
+                </div>
+                <div class="project_items">
+                    <img src="./projects/images/gamermash.png" alt="">
+                    <span class="project_tit">Gamermash</span>
+                    <span class="project_desc">A games website where you can play some games. So visit and
+                        play
+                        games
+                        online.</span>
+    
+                    <div class="live_repo_btns">
+                        <a href="https://gamermash.netlify.app/" target="_blank" rel="noopener noreferrer"><button
+                                class="visit_btn">Live <img src="./images/external-link.svg" alt=""></button></a>
+                        <a href="https://github.com/krishkhare049/Gamermash" target="_blank"
+                            rel="noopener noreferrer"><button class="git_link">Repo <img src="./images/link.svg"
+                                    alt=""></button></a>
+                    </div>
+                </div>
+                <div class="project_items">
+                    <img src="./projects/images/personalportfolio.png" alt="">
+                    <span class="project_tit">Personal Portfolio Website</span>
+                    <span class="project_desc">My first Personal Portfolio website</span>
+    
+                    <div class="live_repo_btns">
+                        <a href="https://krishkhareportfolio.netlify.app/" target="_blank" rel="noopener noreferrer"><button
+                                class="visit_btn">Live <img src="./images/external-link.svg" alt=""></button></a>
+    
+                        <a href="https://github.com/krishkhare049/krish-khare-portfolio-website" target="_blank"
+                            rel="noopener noreferrer"><button class="git_link">Repo <img src="./images/link.svg"
+                                    alt=""></button></a>
+                    </div>
+                </div>
+                <div class="project_items">
+                    <img src="./projects/images/currencyconverter.png" alt="">
+                    <span class="project_tit">Currency Converter</span>
+                    <span class="project_desc">Convert currencies</span>
+    
+                    <div class="live_repo_btns">
+                        <a href="https://currency-converter-kk.vercel.app/" target="_blank"
+                            rel="noopener noreferrer"><button class="visit_btn">Live <img src="./images/external-link.svg"
+                                    alt=""></button></a>
+    
+                        <a href="https://github.com/krishkhare049/CurrencyConverter" target="_blank"
+                            rel="noopener noreferrer"><button class="git_link">Repo <img src="./images/link.svg"
+                                    alt=""></button></a>
+                    </div>
+                </div>
+    
+                <div class="project_items">
+                    <img src="./projects/images/knowpedia.png" alt="">
+                    <span class="project_tit">Knowpedia</span>
+                    <span class="project_desc">An essay website</span>
+    
+                    <div class="live_repo_btns">
+                        <a href="https://knowpedia.netlify.app/" target="_blank" rel="noopener noreferrer"><button
+                                class="visit_btn">Live <img src="./images/external-link.svg" alt=""></button></a>
+                        <a href="https://github.com/krishkhare049/knowpedia" target="_blank"
+                            rel="noopener noreferrer"><button class="git_link">Repo <img src="./images/link.svg"
+                                    alt=""></button></a>
+                    </div>
+                </div>
+    
+                <div class="project_items">
+                    <img src="./projects/images/netflix.png" alt="">
+                    <span class="project_tit">Netflix Landing Page</span>
+                    <span class="project_desc">Netflix Landing Page using HTML and CSS</span>
+    
+                    <div class="live_repo_btns">
+                        <a href="https://netflix-ui-kk.netlify.app/" target="_blank" rel="noopener noreferrer"><button
+                                class="visit_btn">Live <img src="./images/external-link.svg" alt=""></button></a>
+    
+                        <a href="https://github.com/krishkhare049/Netflix-UI" target="_blank"
+                            rel="noopener noreferrer"><button class="git_link">Repo <img src="./images/link.svg"
+                                    alt=""></button></a>
+                    </div>
+    
+                </div>
+                
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div id="contact_page" class="pages">
+        <div id="collage" class="">
+
+            <div id="collage_intro">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt"
+                    viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000"
+                        stroke="none">
+                        <path d="M1092 4845 c-114 -25 -169 -44 -269 -94 -198 -100 -360 -264 -458
+-466 -101 -207 -98 -181 -102 -867 l-4 -598 1021 0 1020 0 0 1020 0 1020 -572
+-1 c-447 0 -587 -4 -636 -14z" />
+                        <path d="M2820 2559 l0 -2300 598 4 c565 3 601 4 667 24 372 108 630 361 742
+728 l28 90 0 1450 c0 1590 4 1470 -56 1635 -123 333 -415 581 -771 654 -65 14
+-165 16 -643 16 l-565 0 0 -2301z" />
+                        <path d="M260 1735 c0 -604 2 -632 52 -780 95 -280 338 -531 610 -631 162 -60
+133 -57 781 -61 l597 -4 0 1020 0 1021 -1020 0 -1020 0 0 -565z" />
+                    </g>
+                </svg>
+                <span>My Collage</span>
+            </div>
+
+            <div id="collage_container">
+
+                <!-- Collage Swiper- -->
+                <div class="swiper" id="collage_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img
+                                    src="/personal_images/krishkhare.png" alt=""><span>Hey</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img
+                                    src="/personal_images/railway_station_trip.jpg" alt=""><span>First trip of
+                                    college</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img src="/personal_images/bus_coat.jpg"
+                                    alt=""><span>Random image of
+                                    school
+                                    bus</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img src="/personal_images/under_tree.jpg"
+                                    alt=""><span>Under tree in
+                                    college
+                                    basketball ground</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img src="/personal_images/class_img.jpg"
+                                    alt=""><span>Random image of
+                                    semester 2 class</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img src="/personal_images/beginning_of_dowo.jpg"
+                                    alt=""><span>Beginning of Dowo</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img
+                                    src="/personal_images/IMG-20231202-WA0007.jpg" alt=""><span>In
+                                    park</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img
+                                    src="/personal_images/IMG-20231202-WA0006.jpg" alt=""><span>Random image</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img src="/personal_images/long_hair.jpg"
+                                    alt=""><span>When I was 3
+                                    years old</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img src="/personal_images/long_hair_2.jpg"
+                                    alt=""><span>When I was 3
+                                    years old</span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="collage_items"><span>...</span><img src="/personal_images/long_hair_3.jpg"
+                                    alt=""><span>When I was 3
+                                    years old</span></div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <footer id="foot" class="sections">
+
+        <div class="skills_sec">
+            <div class="skills_tit">
+                <img src="./images/skills.png" alt="">
+                <span>Skills</span>
+            </div>
+            <div class="skills_items">
+                <img src="./images/html_css.png" alt="">
+                <span>HTML & CSS</span>
+            </div>
+            <div class="skills_items">
+                <img src="./images/js.png" alt="">
+                <span>JS</span>
+            </div>
+            <div class="skills_items">
+                <img src="./images/react.png" alt="">
+                <span>React JS</span>
+            </div>
+            <div class="skills_items">
+                <img src="./images/nodejs.png" alt="">
+                <span>Node JS</span>
+            </div>
+            <div class="skills_items">
+                <img src="./images/mongodb.png" alt="">
+                <span>MongoDB</span>
+            </div>
+            <div class="skills_items">
+                <img src="./images/tailwindcss.png" alt="">
+                <span>Tailwind</span>
+            </div>
+        </div>
+
+        <p style="font-size: 45px; font-weight: 900; margin: 0px;">Get in Touch</p>
+
+        <div id="contact_container">
+            <div class="contact_items">
+                <?xml version="1.0" standalone="no"?>
+                <!DOCTYPE svg
+                    PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt"
+                    viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000"
+                        stroke="none">
+                        <path d="M2385 5109 c-559 -58 -1049 -402 -1308 -915 -43 -86 -111 -283 -131
+-384 -74 -364 -26 -736 135 -1064 24 -49 341 -553 704 -1120 490 -765 669
+-1037 694 -1053 46 -31 116 -31 162 0 24 16 206 291 691 1047 362 564 680
+1070 707 1125 188 383 221 827 90 1228 -84 257 -215 471 -405 661 -355 355
+-840 527 -1339 475z m360 -912 c269 -75 478 -288 546 -557 8 -31 14 -105 14
+-170 0 -123 -12 -188 -53 -285 -93 -219 -290 -387 -522 -446 -71 -18 -269 -18
+-340 0 -232 59 -429 227 -522 446 -41 97 -53 162 -53 285 0 123 12 188 53 285
+93 220 305 400 522 444 30 6 64 13 75 15 37 9 229 -3 280 -17z" />
+                        <path d="M1244 1635 c-728 -203 -1062 -553 -886 -928 32 -70 124 -174 212
+-242 291 -223 840 -384 1525 -447 183 -17 747 -17 930 0 685 63 1234 224 1525
+447 88 68 180 172 212 242 177 378 -171 736 -906 933 -98 26 -121 29 -131 18
+-7 -7 -175 -269 -375 -583 -200 -314 -381 -592 -402 -620 -194 -251 -592 -250
+-779 2 -20 26 -204 310 -409 631 -204 320 -377 582 -384 581 -6 0 -66 -16
+-132 -34z" />
+                    </g>
+                </svg>
+                <span>Jhansi, Uttar Pradesh, India</span>
+            </div>
+            <div class="contact_items">
+
+                <div class="em_call">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="297.000000pt" height="271.000000pt"
+                        viewBox="0 0 297.000000 271.000000" preserveAspectRatio="xMidYMid meet">
+
+                        <g transform="translate(0.000000,271.000000) scale(0.100000,-0.100000)" fill="#000000"
+                            stroke="none">
+                            <path d="M547 2550 c-63 -16 -91 -36 -161 -112 -79 -85 -107 -130 -140 -224
+               -82 -234 -50 -467 101 -739 45 -82 201 -316 223 -335 3 -3 44 -52 91 -110 209
+               -255 462 -476 704 -613 191 -108 512 -230 694 -262 233 -43 447 21 607 181 63
+               62 85 104 113 213 28 111 28 184 1 211 -11 11 -82 50 -158 86 -75 37 -180 87
+               -232 113 -227 110 -242 108 -354 -53 -36 -50 -82 -112 -104 -136 -37 -42 -41
+               -44 -104 -48 -55 -4 -75 0 -137 26 -193 82 -385 212 -532 364 -131 135 -151
+               159 -230 276 -82 119 -103 165 -94 200 7 29 59 97 141 185 30 32 63 75 72 94
+               19 40 23 28 -98 323 -90 221 -142 331 -164 350 -22 17 -182 24 -239 10z" />
+                        </g>
+                    </svg>
+                    <span><a href="tel:+91 8081998420">Call</a></span>
+                </div>
+                <div class="em_call">
+
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt"
+                        viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet" id="em_svg">
+
+                        <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000"
+                            stroke="none">
+                            <path d="M366 4464 c-255 -62 -415 -322 -351 -569 20 -75 57 -143 107 -195 45
+        -46 2175 -1471 2253 -1506 119 -54 260 -52 382 5 95 45 2182 1442 2235 1496
+        249 254 113 686 -243 770 -94 22 -4291 21 -4383 -1z" />
+                            <path d="M0 2236 c0 -810 3 -1181 11 -1218 37 -176 179 -320 360 -363 94 -22
+        4267 -22 4372 0 182 38 329 184 366 363 13 61 16 2386 3 2380 -4 -1 -487 -323
+        -1074 -715 -587 -392 -1099 -729 -1139 -748 -110 -56 -204 -77 -339 -77 -135
+        0 -229 21 -339 77 -40 19 -552 356 -1139 748 -587 392 -1070 714 -1074 715 -5
+        2 -8 -521 -8 -1162z" />
+                        </g>
+                    </svg>
+                    <span><a href="mailto:kharekrish049@gmail.com">Email</a></span>
+                </div>
+            </div>
+            <div class="contact_items">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt"
+                    viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"
+                    style="filter: invert(43%) sepia(81%) saturate(6522%) hue-rotate(205deg) brightness(107%) contrast(102%)">
+
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000"
+                        stroke="none">
+                        <path d="M395 5110 c-176 -28 -312 -145 -371 -320 -18 -53 -19 -130 -19 -2230
+0 -2100 1 -2177 19 -2230 49 -146 148 -247 294 -303 l57 -22 2185 0 2185 0 57
+22 c146 56 245 157 294 303 18 53 19 130 19 2230 0 2100 -1 2177 -19 2230 -49
+146 -148 247 -294 303 l-57 22 -2150 1 c-1182 1 -2172 -2 -2200 -6z m880 -565
+c207 -44 382 -218 424 -423 78 -376 -262 -724 -634 -649 -200 41 -355 175
+-421 366 -31 89 -35 228 -9 318 42 148 150 276 289 343 124 60 222 72 351 45z
+m2625 -1298 c169 -44 276 -104 383 -215 166 -170 253 -399 288 -757 9 -91 13
+-353 14 -875 0 -702 -1 -747 -18 -773 -10 -16 -32 -37 -50 -47 -30 -19 -53
+-20 -365 -20 -363 0 -370 1 -411 58 -19 28 -20 46 -24 763 -3 623 -6 744 -19
+799 -38 154 -98 254 -188 308 -78 46 -121 57 -235 56 -131 0 -192 -23 -279
+-105 -72 -67 -123 -159 -159 -287 -21 -75 -22 -97 -27 -792 -5 -668 -6 -717
+-23 -742 -38 -55 -56 -58 -404 -58 -356 0 -368 2 -405 71 -17 32 -18 92 -18
+1267 0 1368 -4 1281 64 1323 29 18 56 19 361 19 310 0 332 -1 362 -20 52 -31
+63 -64 63 -192 l1 -113 22 30 c74 102 202 206 309 253 141 61 271 82 488 78
+147 -3 190 -8 270 -29z m-2379 -30 c19 -12 42 -38 52 -57 16 -33 17 -109 15
+-1272 -3 -1233 -3 -1237 -24 -1265 -45 -61 -58 -63 -402 -63 -338 0 -341 0
+-392 55 l-25 27 -3 1250 c-2 1206 -2 1252 16 1280 11 16 32 38 48 49 27 18 51
+19 355 19 322 0 326 0 360 -23z" />
+                    </g>
+                </svg>
+                <span><a href="https://www.linkedin.com/in/krish-khare-8b1a8b274/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></span>
+            </div>
+            <div class="contact_items">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="48.000000pt" height="48.000000pt"
+                    viewBox="0 0 48.000000 48.000000" preserveAspectRatio="xMidYMid meet"
+                    style="filter: invert(28%) sepia(86%) saturate(4198%) hue-rotate(311deg) brightness(101%) contrast(104%);">
+
+                    <g transform="translate(0.000000,48.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                        <path d="M108 414 c-46 -24 -58 -61 -58 -174 0 -165 25 -190 190 -190 165 0
+               190 25 190 190 0 166 -25 190 -192 190 -71 -1 -111 -5 -130 -16z m263 -43 c28
+               -29 29 -32 29 -131 0 -99 -1 -102 -29 -131 -29 -28 -32 -29 -131 -29 -99 0
+               -102 1 -131 29 -28 29 -29 32 -29 131 0 99 1 102 29 131 29 28 32 29 131 29
+               99 0 102 -1 131 -29z" />
+                        <path d="M324 349 c-10 -17 13 -36 27 -22 12 12 4 33 -11 33 -5 0 -12 -5 -16
+               -11z" />
+                        <path d="M191 326 c-87 -48 -50 -186 49 -186 51 0 100 49 100 99 0 75 -83 124
+               -149 87z m96 -38 c29 -27 29 -65 1 -95 -27 -29 -65 -29 -95 -1 -29 27 -29 65
+               -1 95 27 29 65 29 95 1z" />
+                    </g>
+                </svg>
+                <span><a href="https://www.instagram.com/_krishkhare/" target="_blank"
+                        rel="noopener noreferrer">Instagram</a></span>
+            </div>
+            <div class="contact_items">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="96px" height="96px">
+                    <path
+                        d="M32,10c12.15,0,22,9.85,22,22c0,9.768-6.369,18.045-15.179,20.916c0.002-0.008,0.006-0.021,0.006-0.021	s-1.485-0.696-1.453-1.938c0.035-1.367,0-4.556,0-5.727c0-2.01-1.272-3.434-1.272-3.434s9.977,0.112,9.977-10.533	c0-4.107-2.147-6.245-2.147-6.245s1.128-4.385-0.39-6.245c-1.701-0.184-4.749,1.626-6.05,2.472c0,0-2.062-0.846-5.492-0.846	c-3.43,0-5.492,0.846-5.492,0.846c-1.301-0.846-4.348-2.656-6.05-2.472c-1.518,1.86-0.39,6.245-0.39,6.245s-2.147,2.137-2.147,6.245	c0,10.645,9.977,10.533,9.977,10.533s-1.005,1.136-1.225,2.806c-0.696,0.236-1.721,0.528-2.549,0.528	c-2.165,0-3.812-2.105-4.416-3.078c-0.595-0.96-1.815-1.766-2.953-1.766c-0.749,0-1.115,0.375-1.115,0.803s1.05,0.727,1.743,1.521	c1.461,1.674,1.435,5.438,6.641,5.438c0.565,0,1.719-0.139,2.588-0.256c-0.005,1.185-0.007,2.436,0.012,3.167	c0.031,1.242-1.453,1.938-1.453,1.938s0.004,0.012,0.006,0.021C16.369,50.045,10,41.768,10,32C10,19.85,19.85,10,32,10z" />
+                </svg>
+                <span><a href="https://github.com/krishkhare049" target="_blank"
+                        rel="noopener noreferrer">Github</a></span>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <span>&#169; Copyright. All rights reserved</span><br>
+        </div>
+    </footer>
+
+    <!-- Smooth scroll to top- -->
+    <div id="smooth_scroll_to_top">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt"
+            viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet" style="rotate: 180deg;">
+
+            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                <path d="M2058 4727 c-31 -13 -74 -38 -95 -55 -77 -62 -1882 -1878 -1907
+-1920 -38 -61 -60 -154 -52 -225 14 -132 -40 -73 1014 -1129 795 -796 975
+-971 1020 -994 78 -39 202 -46 285 -14 89 34 153 90 191 169 28 60 31 75 31
+161 0 165 16 144 -562 729 -274 278 -534 536 -579 575 -45 40 -118 91 -167
+116 l-86 45 1837 5 1837 5 57 23 c81 33 160 108 200 190 30 60 33 75 33 152
+-1 70 -5 95 -27 142 -35 76 -99 143 -173 181 l-60 32 -1855 5 -1855 5 95 50
+95 49 576 576 c665 664 634 624 634 795 0 89 -3 106 -28 156 -15 31 -50 78
+-77 103 -72 68 -126 89 -235 93 -77 3 -98 0 -147 -20z" />
+            </g>
+        </svg>
+    </div>
+
+</body>
+
+
+<!-- Load library from the CDN -->
+<script src="./lib/js/typed.umd.js"></script>
+<script src="lib/js/navigo.min.js"></script>
+<script src="./lib/js/swiper-bundle.min.js"></script>
+<script src="./lib/js/anime.min.js"></script>
+<script src="./js/anime_script.js"></script>
+<script src="./router.js"></script>
+<script src="./lib/js/jquery-3.5.1.min.js"></script>
+<script src="./js/index.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+    var typed1 = new Typed('#loader', {
+        strings: ['Loading ^1000 ...',],
+        typeSpeed: 50,
+        loop: true
+
+    });
+    var typed2 = new Typed('#hey', {
+        strings: ['^1500 Hey, I am Krish', 'Hi! I am a', 'Krish Khare here'],
+        typeSpeed: 50,
+        startDelay: 1500,
+        backDelay: 3000,
+        // shuffle: true,
+        //loop: true
+    });
+</script>
+
+
+</html>
